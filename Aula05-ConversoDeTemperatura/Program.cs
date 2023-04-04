@@ -1,6 +1,6 @@
 ﻿namespace Aula05_ConversoDeTemperatura
 {
-    internal class Program
+     class Program
     {
         static void Main(string[] args)
         {
@@ -12,7 +12,7 @@
                 float temperatura = float.Parse(Console.ReadLine());
                 Console.WriteLine("Digite C para converter em Celsius ou F para Fahrenheit ");
                 string opcao = Console.ReadLine().ToLower().Substring(0, 1);
-
+                
                 if (opcao == "f")
                 {
                     var result = temperatura * 1.8 + 32;

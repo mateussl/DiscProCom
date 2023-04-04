@@ -13,8 +13,8 @@
 
             
             Pessoa pessoaAluno = new Pessoa("Fulano de Tal",26);
+           
             
-
             Console.WriteLine("Pessoa Nome "+ pessoaAluno.Nome);
             Console.WriteLine("Pessoa Idade " + pessoaAluno.Idade);
 
